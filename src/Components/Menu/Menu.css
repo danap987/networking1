@@ -1,9 +1,10 @@
 .Menu {
-	
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    }
-
+    width: 20%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  grid-row: 10 span;
+  grid-column: 2 span;
+}

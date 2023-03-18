@@ -16,7 +16,7 @@ function Users(): JSX.Element {
         <div className="Users">
 		<h1>Users list:</h1>
 
-         {users.map(u=><UsersCard key={`task`+u.id} user={u} />)}		
+         {users.map(u=><UsersCard key={`user`+u.id} user={u} />)}		
         </div>
     );
 }

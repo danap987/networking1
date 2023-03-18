@@ -25,8 +25,8 @@ const [locations, setLocations]= useState<ILocation[]>([]);
 
     return (
         <div className="UsersCard">
-            {/* {names.map(n=><Name key={`name`+n.last+ n.last} name={n} />)}	
-            {locations.map(l=>< Location key={`location`+l.coordinates?.latitude+ l.coordinates?.longitude} location={l} />)} */}
+             {names.map(n=><Name key={`name`+n.last+ n.last} name={n} />)}	
+           {/* {locations.map(l=>< Location key={`location`+l.coordinates?.latitude+ l.coordinates?.longitude} location={l} />)}  */}
            
 			<p>Gender: {props.user.gender}</p>
             <p> Name: {props.user.name?.title }{props.user.name?.first} {props.user.name?.last}</p>

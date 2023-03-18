@@ -1,10 +1,13 @@
 .Main {
-	background-color: #aeb7e5;
-    height:100%;
-    width: 100%;
+  background-color: #aeb7e5;
+  height: 100%;
+  width: 80%;
+  grid-row: 10 span;
+  grid-column: 10 span;
 }
 
-.Routing{
-    height:100%; 
+.Routing {
+  height: 100%;
+  grid-row: 10 span;
+  grid-column: 10 span;
 }
-

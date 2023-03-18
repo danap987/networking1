@@ -16,7 +16,7 @@ function Location(props:LocationProps ): JSX.Element {
 
     return (
         <div className="Location">
-            {locations.map(l=><p key={`location`+l.coordinates}>{l.street?.name} {l.street?.number} </p> )}
+            {/* {locations.map(l=><Street key={`location`+l.coordinates}>{l.street?.name} {l.street?.number} </Street> )} */}
 
             {/* <Street street={props.location.street?.name}> */}
 			<p>{props.location.country}</p>
