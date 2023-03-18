@@ -1,0 +1,15 @@
+.Cat {
+    display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cat .img
+{
+width: 10px;
+height: 10px;
+
+
+}

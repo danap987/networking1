@@ -1,0 +1,11 @@
+.TaskCard {
+	background-color: rgb(98, 98, 77);
+border: 2px solid rgb(35, 35, 33);	
+border-radius: 20%;
+height: 240px;
+width: 200px;
+justify-content: center;
+align-items: center;
+margin: 3%;
+padding-left: 1%;
+}
