@@ -1,9 +1,9 @@
-// export interface UsersModel {
-//     results: IResult[]
-//     info: IInfo
-//   }
+export interface UsersModel {
+    results: IUser[]
+    info: IInfo
+  }
   
-  export interface UsersModel {
+  export interface IUser {
     gender?: string
     name?: IName
     location?: ILocation
@@ -80,9 +80,9 @@
     thumbnail?: string
   }
   
-//   export interface IInfo {
-//     seed: string
-//     results: number
-//     page: number
-//     version: string
-//   }
+  export interface IInfo {
+    seed: string
+    results: number
+    page: number
+    version: string
+  }

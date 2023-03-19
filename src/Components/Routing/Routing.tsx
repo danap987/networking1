@@ -6,6 +6,7 @@ import Home from "../Pages/Home/Home";
 import Page404 from "../Pages/Page404/Page404";
 import Tasks from "../Pages/Tasks/Tasks";
 import Users from "../Pages/Users/Users";
+import Results from "../Pages/Users/UsersCard/Results/Results";
 import "./Routing.css";
 
 function Routing(): JSX.Element {
@@ -16,7 +17,7 @@ function Routing(): JSX.Element {
                 <Route path="home" element={<Home />}/>
                 <Route index element={<Home />}/>
                 <Route path="cats" element={<Cat/>}/>
-                <Route path="users" element={<Users/>}/>
+                <Route path="users" element={<Results/>}/>
                 <Route path="comments" element={<Comments/>}/>
                 <Route path="tasks" element={<Tasks/>}/>
                 <Route path="*" element={<Page404/>}/>	
