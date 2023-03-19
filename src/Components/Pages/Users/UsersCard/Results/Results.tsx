@@ -18,7 +18,8 @@ function Results(): JSX.Element {
         <div className="Results">
 			<h1>Users list:</h1>
 
-{/* {results.map(u=><UsersCard key={`user`+u.results} user={u} />)}	 */}
+
+
 {results.map(r=> <p key={`result`+r.results[]}>{r.results[]},</p>)}
         </div>
     );
