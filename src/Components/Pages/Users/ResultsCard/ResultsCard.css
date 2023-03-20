@@ -1,0 +1,12 @@
+.ResultsCard {
+	background-color: rgb(98, 98, 77);
+border: 2px solid rgb(35, 35, 33);	
+border-radius: 20%;
+height: 250px;
+width: 250px;
+justify-content: center;
+align-items: center;
+margin: 3%;
+padding-left: 9%;
+
+}

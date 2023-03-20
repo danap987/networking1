@@ -35,7 +35,7 @@ const [locations, setLocations]= useState<ILocation[]>([]);
     return (
         <div className="Users">
 		{names.map(n=><Name key={`name`+n.last+ n.last} name={n} />)}	
-        {users.map(u=><Name key={`user`+ u.id} user={u} />)}	
+        {/* {users.map(u=><Name key={`user`+ u.} user={u} />)}	 */}
 
            {/* {locations.map(l=>< Location key={`location`+l.coordinates?.latitude+ l.coordinates?.longitude} location={l} />)}  } */}
            {/* {locations.map(n=><Location key={`location`+n.timezone+ n.country+ n.state+ n.city+ n.street?.name+ n.street?.number} location={n} />)}	 */}
