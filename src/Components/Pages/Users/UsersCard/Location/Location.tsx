@@ -28,13 +28,13 @@ useEffect(()=>{
             {locations.map(n=><Location key={`location`+n.timezone+ n.country+ n.state+ n.city+ n.street?.name+ n.street?.number} location={n} />)}	
 
 
-			<p>{props.location.country}</p>
+			{/* <p>{props.location.country}</p>
             <p>{props.location.state}</p>
             <p>{props.location.city}</p>
             <p>{props.location.street?.name} {props.location.street?.number}</p>
             <p>{props.location.coordinates?.latitude} {props.location.coordinates?.longitude}</p>
             <p>{props.location.postcode}</p>
-            <p>{props.location.timezone?.offset} {props.location.timezone?.description}</p>
+            <p>{props.location.timezone?.offset} {props.location.timezone?.description}</p> */}
 
         </div>
     );

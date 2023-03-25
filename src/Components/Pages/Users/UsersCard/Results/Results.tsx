@@ -21,7 +21,7 @@ function Results(): JSX.Element {
             <h1>Users list:</h1>
 
             {results?.results.map(r => <p key={`result` + r.id}>{r.id?.name}, {r.gender} {r.name?.first} {r.name?.last} {r.location?.country}, {r.location?.city}</p>)}
-            {/* {results?.results.map(r => <UsersCard key={`result` + r.id?.name}>{r}</UsersCard>)} */}
+            {/* {results?.results.map(r => <ResultsCard key={`result` + r.id?.name}> result={r}</ResultsCard>)} */}
 
            
 

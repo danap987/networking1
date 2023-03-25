@@ -6,7 +6,7 @@ interface NameProps
 function Name(props: NameProps): JSX.Element {
     return (
         <div className="Name">
-			<p>Name: {props.name.title}{props.name.first} {props.name.last}</p>
+			{/* <p>Name: {props.name.title}{props.name.first} {props.name.last}</p> */}
         </div>
     );
 }
